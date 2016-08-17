@@ -17,6 +17,8 @@ Heavily using [pgoapi](https://github.com/keyphact/pgoapi). Shout-out to the Unk
 
 There's no other flags besides  `-H` and `-P`, everything else is configured through the Web UI.
 
+[![Deploy](https://raw.githubusercontent.com/favll/pogom/master/deploy-to-jelastic.png)](https://jelastic.com/install-application/?manifest=https://raw.githubusercontent.com/favll/pogom/master/manifest.jps?filter=pokemon)
+
 ##Usage
 
  - Visit `http://<ip>:<port>/` (by default: `http://127.0.0.1:5000/`)
@@ -26,6 +28,7 @@ There's no other flags besides  `-H` and `-P`, everything else is configured thr
    - Optionally protect the configuration with a password (only authenticated users can access the config and change scan locations)
  - Go back to `http://<ip>:<port>/` to view the map
  - Add scan locations simply by clicking on the map
+ - 
 
 ##Features
 - [x] Extremely fast (using multiple accounts)
@@ -38,9 +41,10 @@ There's no other flags besides  `-H` and `-P`, everything else is configured thr
 - [x] Mobile friendly
 - [x] Browser Notifications
 - [x] Heatmaps
+- [x] Teleram notification with [pogomBOT](http://github.com/eugenio412/pogomBOT)
 
 ##TODO
-- Webhooks/Pushbullet/Telegram Notifications
+- Webhooks/Pushbullet notifications
 - Show/Hide Pokestops
 
 ##FAQ
